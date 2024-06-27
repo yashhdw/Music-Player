@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="icon" href="assets/favicon.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/utility.css">
+    <link rel="stylesheet" href="CSS/playbar.css">
+     
+</head>
+
+
+
+<body class="body">
+
+
+    <div class="container flex">
+
+        <!-- left -->
+        <div class="left  ">
+
+            <div class="library rounded     ">
+                <img class="cross" src="assets/cross.svg" alt="cross">
+                <div class="lib-main m-5 flex vertical p ">
+                    <img class="lib-img m-5 invert" src="assets/library.svg" alt="library pic"> Your library
+
+
+
+                </div>
+                <div class="songsList">
+                    <ul>
+
+                    </ul>
+
+                </div>
+
+
+            </div>
+        </div>
+
+
+        <!-- right part  -->
+        <div class="right rounded ">
+            <header class="header">
+
+                <img class="hamu invert" src="assets/hamburger.svg" alt="">
+            </header>
+            <div class="containerPlay">
+                <h1 class="h1play">Playlists</h1>
+                <div class="playlist">
+                    <div class="cardContainer">
+
+
+                    </div>
+
+
+                </div>
+            </div>
+
+
+
+
+
+
+        </div>
+        <div class="playbar">
+            <div class="songInfo">
+
+            </div>
+            <div class="songButtons">
+                <img id="previous" src="assets/previous.svg" alt="previous">
+                <img id="play" src="assets/play.svg" alt="play ">
+                <img id="next" src="assets/next.svg" alt="next">
+
+                
+            </div>
+
+            <div class="cfvast">
+                
+
+
+
+                <div class="songTimer">
+
+
+                </div>
+
+                <div class="volumee ">
+                    <img id="volume" src="assets/volumeup.svg" alt="volume">
+                    <input id="volRange" type="range" name="volume">
+                </div>
+            </div>
+
+
+
+            <div class="seakbar">
+                <div class="circle"></div>
+
+            </div>
+
+        </div>
+
+
+
+    </div>
+
+
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

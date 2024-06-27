@@ -1,0 +1,12 @@
+.flex{
+    display:flex;
+}
+
+.rounded{
+    border-radius: 5px;
+}
+
+
+.vertical{
+    align-items:center;
+}

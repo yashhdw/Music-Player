@@ -1,0 +1,143 @@
+.playbar {
+    height: 55px;
+    width: 99vw;
+    background-color: #4f1919;
+    border-radius: 40px;
+    position: fixed;
+    bottom: 12px;
+    left: 7px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+
+
+}
+
+.songButtons img {
+    cursor: pointer;
+    padding: 13px;
+
+
+}
+
+
+
+.seakbar {
+    background-color: #e9ecec;
+    height: 6px;
+    width: 96vw;
+    position: fixed;
+    bottom: 64px;
+    left: 31px;
+    cursor: pointer;
+}
+
+.circle {
+    height: 18px;
+    width: 18px;
+    border-radius: 12px;
+    background-color: #06b48a;
+    position: absolute;
+    bottom: -7px;
+    left: -0.5%;
+    transition: left 0.7;
+}
+
+.songTimer {
+    background-color: #a58287;
+    border-radius: 18px;
+    margin: 0px 12px 0px 0px;
+    padding: 8px;
+    width: 88px;
+}
+
+.songInfo {
+    margin: 0px 18px;
+    overflow: hidden;
+    width: 18%;
+    height: 50%;
+    color: #f3faf4b0;
+}
+
+.cfvast {
+    width: 22%;
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#volRange {
+    width: 100px;
+    display: none;
+    
+
+
+}
+ 
+.volumee {
+    margin-right: 33px;
+     
+}
+
+
+/* .songButtons{
+    width:20%;
+    
+ } */
+
+@media (max-width: 1369px) {
+    .playbar {
+        height: 102px;
+        width: 97vw;
+    }
+
+    .seakbar {
+
+
+        width: 85vw;
+        position: fixed;
+        bottom: 104px;
+        left: 30px;
+
+    }
+
+    .songTimer,
+    .songInfo {
+        font-size: 10px;
+    }
+
+    .songInfo {
+        margin: 17px 0 0 11px;
+    }
+
+
+    .songButtons img {
+
+        padding: 6px;
+    }
+
+    .songTimer {
+        width: 62px;
+        /* width:56px; */
+    }
+
+
+
+    .cfvast {
+        flex-direction: column;
+        gap: 5px;
+        width: 26%;
+        height: 28%;
+    }
+
+    #volRange {
+        width: 65px;
+    }
+
+    .volumee {
+        display: flex;
+    }
+}
